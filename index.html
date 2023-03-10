@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Time tracking dashboard</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -21,7 +23,7 @@
       <div class="person">
         <img src="images/image-jeremy.png" alt="">
         <div class="name">
-          <h2>Report for</h2>
+          <p>Report for</p>
           <h1>Jeremy Robson</h1>
         </div>
       </div>
@@ -35,7 +37,7 @@
     </header>
     <main>
       <section class="panel work">
-        <img class="panel__img" src="" alt="">
+        <img class="panel__img" src="/images/icon-work.svg" alt="">
         <div class="panel__container">
           <div class="panel__item-a">
             <p class="activity">Work</p>
@@ -43,12 +45,14 @@
           </div>
           <div class="panel__item-b">
             <p>...</p>
-            <span><p>Last Week - </p><p>36hrs</p></span>
+            <div>
+              <span>Last Week - </span><span>36hrs</span>
+            </div>
           </div>
         </div>
       </section>
       <section class="panel play">
-        <img class="panel__img" src="" alt="">
+        <img class="panel__img" src="/images/icon-play.svg" alt="">
         <div class="panel__container">
           <div class="panel__item-a">
             <p class="activity">Play</p>
@@ -56,12 +60,14 @@
           </div>
           <div class="panel__item-b">
             <p>...</p>
-            <span><p>Last Week - </p><p>8hrs</p></span>
+            <div>
+              <span>Last Week - </span><span>8hrs</span>
+            </div>
           </div>
         </div>
       </section>
       <section class="panel study">
-        <img class="panel__img" src="" alt="">
+        <img class="panel__img" src="/images/icon-study.svg" alt="">
         <div class="panel__container">
           <div class="panel__item-a">
             <p class="activity">Study</p>
@@ -69,12 +75,14 @@
           </div>
           <div class="panel__item-b">
             <p>...</p>
-            <span><p>Last Week - </p><p>7hrs</p></span>
-          </div>
+            <div>
+              <span>Last Week - </span><span>7hrs</span>
+            </div>
+           </div>
         </div>
       </section>
       <section class="panel exercise">
-        <img class="panel__img" src="" alt="">
+        <img class="panel__img" src="/images/icon-exercise.svg" alt="">
         <div class="panel__container">
           <div class="panel__item-a">
             <p class="activity">Exercise</p>
@@ -82,12 +90,14 @@
           </div>
           <div class="panel__item-b">
             <p>...</p>
-            <span><p>Last Week - </p><p>7hrs</p></span>
-          </div>
+            <div>
+              <span>Last Week - </span><span>7hrs</span>
+            </div>
+            </div>
         </div>
       </section>
       <section class="panel social">
-        <img class="panel__img" src="" alt="">
+        <img class="panel__img" src="/images/icon-social.svg" alt="">
         <div class="panel__container">
           <div class="panel__item-a">
             <p class="activity">Social</p>
@@ -95,12 +105,14 @@
           </div>
           <div class="panel__item-b">
             <p>...</p>
-            <span><p>Last Week - </p><p>10hrs</p></span>
+            <div>
+              <span>Last Week - </span><span>10hrs</span>
+            </div>
           </div>
         </div>
       </section>
       <section class="panel selfcare">
-        <img class="panel__img" src="" alt="">
+        <img class="panel__img" src="/images/icon-self-care.svg" alt="">
         <div class="panel__container">
           <div class="panel__item-a">
             <p class="activity">Self Care</p>
@@ -108,7 +120,9 @@
           </div>
           <div class="panel__item-b">
             <p>...</p>
-            <span><p>Last Week - </p><p>2hrs</p></span>
+            <div>
+              <span>Last Week - </span><span>36hrs</span>
+            </div>
           </div>
         </div>
       </section>
@@ -116,53 +130,53 @@
   </div>
   
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+  <!-- Work -->
+  <!-- 5hrs daily -->
+  <!-- Previous - 7hrs daily -->
+  <!-- 32hrs weekly -->
+  <!-- Previous - 36hrs weekly -->
+  <!-- 103hrs monthly -->
+  <!-- Previous - 128hrs monthly -->
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+  <!-- Play -->
+  <!-- 1hr daily -->
+  <!-- Previous - 2hrs daily -->
+  <!-- 10hrs weekly -->
+  <!-- Previous - 8hrs weekly -->
+  <!-- 23hrs monthly -->
+  <!-- Previous - 29hrs monthly -->
 
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+  <!-- Study -->
+  <!-- 0hrs daily -->
+  <!-- Previous - 1hr daily -->
+  <!-- 4hrs weekly -->
+  <!-- Previous - 7hrs weekly -->
+  <!-- 13hrs monthly -->
+  <!-- Previous - 19hrs monthly -->
 
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
+  <!-- Exercise -->
+  <!-- 1hr daily -->
+  <!-- Previous - 1hr daily -->
+  <!-- 4hrs weekly -->
+  <!-- Previous - 5hrs weekly -->
+  <!-- 11hrs monthly -->
+  <!-- Previous - 18hrs monthly -->
 
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
+  <!-- Social -->
+  <!-- 1hr daily -->
+  <!-- Previous - 3hrs daily -->
+  <!-- 5hrs weekly -->
+  <!-- Previous - 10hrs weekly -->
+  <!-- 21hrs monthly -->
+  <!-- Previous - 23hrs monthly -->
 
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
+  <!-- Self Care -->
+  <!-- 0hrs daily -->
+  <!-- Previous - 1hr daily -->
+  <!-- 2hrs weekly -->
+  <!-- Previous - 2hrs weekly -->
+  <!-- 7hrs monthly -->
+  <!-- Previous - 11hrs monthly -->
 
   
   <div class="attribution">
