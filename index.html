@@ -38,9 +38,9 @@
       </div>
       <nav>
         <ul>
-          <li><a href="">Daily</a></li>
-          <li><a href="">Weekly</a></li>
-          <li><a href="">Monthly</a></li>
+          <li><a id="daily" class="active" href="">Daily</a></li>
+          <li><a style='color: white' id="weekly" href="">Weekly</a></li>
+          <li><a id="monthly" href="">Monthly</a></li>
         </ul>
       </nav>
     </header>
@@ -49,12 +49,12 @@
       <div class="panel__container">
         <div class="panel__item-a">
           <p class="activity">Work</p>
-          <p class="hours">32hrs</p>
+          <p class="currentHours">32hrs</p>
         </div>
         <div class="panel__item-b">
           <p>...</p>
           <div>
-            <span>Last Week - </span><span>36hrs</span>
+            <span class="previousPeriod">Last Week - </span><span class="previousHours">36hrs</span>
           </div>
         </div>
       </div>
@@ -64,12 +64,12 @@
       <div class="panel__container">
         <div class="panel__item-a">
           <p class="activity">Play</p>
-          <p class="hours">10hrs</p>
+          <p class="currentHours">10hrs</p>
         </div>
         <div class="panel__item-b">
           <p>...</p>
           <div>
-            <span>Last Week - </span><span>8hrs</span>
+            <span class="previousPeriod">Last Week - </span><span class="previousHours">8hrs</span>
           </div>
         </div>
       </div>
@@ -79,12 +79,12 @@
       <div class="panel__container">
         <div class="panel__item-a">
           <p class="activity">Study</p>
-          <p class="hours">4hrs</p>
+          <p class="currentHours">4hrs</p>
         </div>
         <div class="panel__item-b">
           <p>...</p>
           <div>
-            <span>Last Week - </span><span>7hrs</span>
+            <span class="previousPeriod">Last Week - </span><span class="previousHours">7hrs</span>
           </div>
         </div>
       </div>
@@ -94,12 +94,12 @@
       <div class="panel__container">
         <div class="panel__item-a">
           <p class="activity">Exercise</p>
-          <p class="hours">4hrs</p>
+          <p class="currentHours">4hrs</p>
         </div>
         <div class="panel__item-b">
           <p>...</p>
           <div>
-            <span>Last Week - </span><span>7hrs</span>
+            <span class="previousPeriod">Last Week - </span><span class="previousHours">8hrs</span>
           </div>
         </div>
       </div>
@@ -109,12 +109,12 @@
       <div class="panel__container">
         <div class="panel__item-a">
           <p class="activity">Social</p>
-          <p class="hours">5hrs</p>
+          <p class="currentHours">5hrs</p>
         </div>
         <div class="panel__item-b">
           <p>...</p>
           <div>
-            <span>Last Week - </span><span>10hrs</span>
+            <span class="previousPeriod">Last Week - </span><span class="previousHours">10hrs</span>
           </div>
         </div>
       </div>
@@ -124,12 +124,12 @@
       <div class="panel__container">
         <div class="panel__item-a">
           <p class="activity">Self Care</p>
-          <p class="hours">2hrs</p>
+          <p class="currentHours">2hrs</p>
         </div>
         <div class="panel__item-b">
           <p>...</p>
           <div>
-            <span>Last Week - </span><span>36hrs</span>
+            <span class="previousPeriod">Last Week - </span><span class="previousHours">2hrs</span>
           </div>
         </div>
       </div>
@@ -140,7 +140,7 @@
   <!-- Work -->
   <!-- 5hrs daily -->
   <!-- Previous - 7hrs daily -->
-  <!-- 32hrs weekly -->
+  <!-- 32hrs weekly + -->
   <!-- Previous - 36hrs weekly -->
   <!-- 103hrs monthly -->
   <!-- Previous - 128hrs monthly -->
@@ -190,6 +190,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="#">Dżo</a>.
   </div>
+  <script src="./script.js"></script>
 </body>
 
 </html>
