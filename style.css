@@ -76,6 +76,10 @@ nav ul li a {
 	color: hsl(236, 100%, 87%);
 }
 
+nav ul li a.active {
+	color: white
+}
+
 nav ul li a:hover {
 	color: white
 }
@@ -130,6 +134,10 @@ section.panel {
 	right: 0;
 	border-radius: 10px;
 	background-color: hsl(235, 46%, 20%);
+}
+
+.panel__container:hover {
+	background-color: hsl(236, 44%, 51%);
 }
 
 .panel__item-a {
