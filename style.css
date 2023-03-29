@@ -182,13 +182,28 @@ section.panel {
 /* desktop */
 
 @media (min-width: 640px) {
+	body {
+		position: relative;
+		height: 100vh;
+	}
 
 	.container {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: 0;
+		transform: translate(-50%, -50%);
 		max-width: fit-content;
-		margin: 100px auto 10px;
 		display: grid;
 		grid-template-columns: repeat(4, 150px);
 		grid-template-rows: 1fr 1fr
+	}
+
+	.attribution {
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 
 	.container header {
